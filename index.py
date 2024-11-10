@@ -19,7 +19,6 @@ conversation_history = {}
 
 @app.route("/", methods=['GET'])
 def callback():
-    
     return 'OK'
 
 @app.route("/callback", methods=['POST'])
