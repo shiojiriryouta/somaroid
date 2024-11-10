@@ -18,7 +18,7 @@ client = OpenAI()
 conversation_history = {}
 
 @app.route("/", methods=['GET'])
-def callback():
+def defo():
     return 'OK'
 
 @app.route("/callback", methods=['POST'])
